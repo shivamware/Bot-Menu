@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ddd;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 10px;
+      margin: 0 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bot Menu</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">English Course</a>
+    <a href="#">CS Courses</a>
+    <a href="#">Cloud Courses</a>
+    <!-- Add more options as needed -->
+  </nav>
+
+  <main>
+    <!-- Your main content goes here -->
+  </main>
+</body>
+</html>
